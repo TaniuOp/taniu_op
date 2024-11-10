@@ -1,4 +1,5 @@
 import wipIcon from '../assets/wip_icon.png';
+import './Landing.css';
 
 const Footer = () => {
   return (

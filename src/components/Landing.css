@@ -81,6 +81,7 @@
   color: white;
   text-align: center;
   width: 75%;
+  min-height: 60%;
   height: 60%;
   border-radius: 24px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -89,9 +90,11 @@
 }
 
 .title {
-  font-size: 42px;
+  font-size: 3vh;
   font-weight: bold;
   margin: 0;
+  text-align: left;
+  align-self: flex-start;
 }
 
 .subtitle {
@@ -128,10 +131,11 @@
 
 .location {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2%;
+  right: 2%;
   font-size: 12px;
   opacity: 0.7;
+  margin: 0;
 }
 
 .text-content-container {
@@ -167,7 +171,7 @@
   justify-content: flex-start;
   align-items: center;
   text-align: justify;
-  margin: 0;
+  margin: 2px 0;
   padding: 0;
   font-style: italic;
   overflow: hidden;
@@ -176,6 +180,7 @@
   opacity: 0;
   color: #c0c0c0;
   animation: slideIn 0.9s ease-out forwards;
+  font-size: 1.5vh;
 }
 
 .summary-text:nth-child(2) {
@@ -186,4 +191,25 @@
 }
 .summary-text:nth-child(4) {
   animation-delay: 0.9s;
+}
+
+footer {
+  width: 100%;
+  background-color: #8cadae4d;
+  color: #0a0a0a;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+.footer-text {
+  margin: 4px;
+}
+
+.wip-icon {
+  height: 26px;
 }
